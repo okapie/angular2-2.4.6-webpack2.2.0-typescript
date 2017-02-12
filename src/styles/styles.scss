@@ -1,0 +1,234 @@
+/* this file will be extracted to main dist folder and is imported in index.html */
+/* This file is for setting global styles  */
+@import 'variables';
+
+button{
+    font-family:Verdana,Yu Gothic UI, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+ul {
+    list-style:none;
+}
+
+nav{
+    margin-top:16px;
+}
+
+nav a{
+    background-color: $nav-button-color;
+    color:white;
+    padding:8px 16px;
+    margin:8px;
+    vertical-align:middle;
+    line-height:1.25;
+    text-align:center;
+    text-decoration:none;
+    border-radius:4px;
+}
+
+#sidebar{
+    position:absolute;
+    top:114px;
+    left:0;
+    height:100%;
+    width:250px;
+    background-color: burlywood;
+}
+
+#mainContents{
+    position:absolute;
+    top:114px;
+    left:250px;
+    background:#fff;
+    width:100%;
+    height:100%;
+    min-width:980px;
+    box-sizing:border-box;
+    overflow:hidden;
+    padding-top:42px;
+}
+
+.mainInformation{
+    clear:both;
+    font-size:12px;
+    font-size:1.2rem;
+    padding:15px 20px;
+    box-sizing:border-box;
+    position:absolute;
+    top:0;
+    width:100%;
+    /** Switch skin */
+    background:#e4e3e1;
+    color:#090909;
+}
+
+.m010{
+    position:relative;
+    padding-top:97px;
+    box-sizing:border-box;
+    height:100%;
+}
+
+.mainMailTopNav{
+    position:absolute;
+    top:0;
+    width:100%;
+}
+
+.cf::after,
+.wrap::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.mainNavBtn{
+    float:left;
+}
+
+.emphasisBtn,
+.relordBtn,
+.searchBtn{
+    width:80px;
+    height:63px;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    box-sizing:border-box;
+    padding:40px 0 5px 0;
+    font-size:11px;
+    font-size:1.1rem;
+    font-weight:bold;
+    cursor:pointer;
+    border:none;
+    background:#fff;
+}
+
+/* Must to modify
+.emphasisBtn,
+.relordBtn,
+.searchBtn{width:33.33%;}
+*/
+
+.emphasisBtn{
+    background-color: salmon;
+    background-size:22px;
+    color:#fff;
+}
+
+.relordBtn{
+    background-color: turquoise;
+    background-size:22px;
+    color:#fff;
+}
+
+.searchBtn{
+    background-color: salmon;
+    background-size:22px;
+    color:#fff;
+}
+
+.mainMailWrapNav{
+    padding:10px 0;
+    font-size:11px;
+    font-size:1.1rem;
+    position:absolute;
+    top:63px;
+    width:100%;
+    border-bottom:solid 1px #000;
+    z-index:3;
+    /** Switch skin */
+    background:#d9d9d9;
+    border-color:#c4c4c4;
+}
+
+.mainMailWrapNav{position:static;}
+
+.mainMailWrapTextNav{
+    float:left;
+}
+
+.textFromNav{
+    display:inline-block;
+    vertical-align:middle;
+    width:235px;
+}
+
+.textSubjectNav{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.mainMailWrapMetaNav{
+    width:230px;
+    float:right;
+    margin-right:16px;
+}
+
+.iconFlagNav{
+    min-width:15px;
+}
+
+.iconArrowNav{
+    min-width:15px;
+    margin:0 10px;
+}
+
+.iconMailNav{
+    min-width:15px;
+}
+
+.mainMailWrapCheck{
+    float:left;
+    width:30px;
+}
+.mainMailWrapCheck input[type="checkbox"]{
+    margin:0 10px;
+    background:#fefefe;
+    border:solid 1px #d8d8d8;
+    border-radius:3px;
+    position:relative;
+    z-index:2;
+}
+
+.mainMailWrapCheck{
+    float:none;
+    width:auto;
+}
+.mainMailWrapCheck input[type="checkbox"]{
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    margin:auto 10px;
+    text-align:center;
+}
+
+.mainMailWrapCheckNav{
+    float:left;
+    width:30px;
+}
+
+.mainMailWrapCheckNav input[type="checkbox"]{
+    margin:0 10px;
+    background:#fefefe;
+    border:solid 1px #d8d8d8;
+    border-radius:3px;
+}
+
+.mainMailWrapIconNav{
+    float:left;
+    margin-right:10px;
+}
+
+.mainMailWrapIconNav li{
+    float:left;
+}
+
+.okapH2{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}

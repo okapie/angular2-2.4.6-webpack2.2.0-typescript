@@ -1,0 +1,53 @@
+<main id="mainContents">
+    <section class="mainInformation">
+      <p>okap okap okap!!</p>
+    </section><!-- /.headerInfo -->
+    <!-- M010 -->
+    <div class="m010">
+        <nav class="mainMailTopNav cf">
+            <div class="mainNavBtn">
+                <button class="emphasisBtn">dummy</button><button class="relordBtn">dummy</button><button class="searchBtn">dummy</button>
+            </div><!-- /.mainNavBtn -->
+        </nav><!-- /.mainMailTopNav -->
+
+        <nav class="mainMailWrapNav cf">
+            <ul class="mainMailWrapIconNav cf">
+                <li class="mainMailWrapCheckNav"><input type="checkbox" name=""></li>
+                <li class="iconFlagNav"><img src="" alt="" width="15" height="15"></li>
+                <li class="iconArrowNav"><img src="" alt="" width="15" height="15"></li>
+                <li class="iconMailNav"><img src="" alt="" width="15" height="15"></li>
+            </ul>
+            <div class="mainMailWrapTextNav cf">
+                <h2 class="okapH2 textFromNav">User</h2>
+                <h3 class="okapH2 textSubjectNav">Title</h3>
+            </div><!-- / mainMailWrapTextNav -->
+            <h2 class="okapH2 spInboxText">Content</h2>
+        </nav>
+
+        <section class="mainMailTop">
+            <div class="mainMailList">
+                <ul *ngFor="let item of listArray; let i=index">
+                    <li>
+                        <div class="mainMailWrap cf">
+                            <a href="#" class="cf">
+                                <div class="mailCenter cf">
+                                    <div class="mainMailText cf">
+                                        <h3 class="mainMailSubject abridgement">
+                                            {{ item.title }}
+                                        </h3>
+                                        <h4 class="mainMailLetter abridgement">
+                                            {{ item.content }}
+                                        </h4>
+                                    </div><!-- /.mainMailText -->
+                                </div><!-- /.mailCenter -->
+                            </a>
+                        </div><!-- /.mainMailWrap -->
+                    </li>
+                </ul>
+            </div><!-- /.mainMailList -->
+        </section><!-- /.mainMailTop  -->
+    </div><!-- /.M010 -->
+  </main><!-- /#mainContents -->
+<aside id="sidebar">
+
+</aside><!-- /#sidebar -->
